@@ -414,6 +414,12 @@ K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
 #
+$CMP BSZ22DN20NS3_G
+D MOSFET N-Ch 200V 7A TDSON-8 OptiMOS 3 
+K MOSFET N-ChOptiMOS TDSON-8
+F https://www.infineon.com/dgdl/Infineon-BSZ22DN20NS3-DS-v02_02-en.pdf?fileId=db3a30432ad629a6012b15ceb1741a7c
+$ENDCMP
+#
 $CMP BUK7M10-40EX
 D 56A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 10mOhm Ron, 19.5nC Qqd, -55 to 175 °C, LFPAK33
 K Power MOSFET N-MOS
@@ -1890,12 +1896,6 @@ K P-Channel MOSFET
 F http://www.jaolen.com/images/pdf/QM6015D.pdf
 $ENDCMP
 #
-$CMP Si2319CDS
-D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
-K P-Channel MOSFET
-F http://www.vishay.com/docs/66709/si2319cd.pdf
-$ENDCMP
-#
 $CMP STS2DNE60
 D 2A Id, 60V Vds, Dual N-Channel MOSFET, 180mOhm Ron, SO-8
 K Dual N-Channel MOSFET
@@ -1948,6 +1948,12 @@ $CMP SUD50P10-43L
 D 37A Id, 100V Vds, TrenchFET P-Channel Power MOSFET, 43mOhm Ron, 160nC Qg, -55 to 150 °C, TO-252-2
 K TrenchFET P-Channel Power MOSFET
 F https://www.vishay.com/docs/62504/sud50p10-43l-ge3.pdf
+$ENDCMP
+#
+$CMP Si2319CDS
+D -4.4A Id, -40V Vds, P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F http://www.vishay.com/docs/66709/si2319cd.pdf
 $ENDCMP
 #
 $CMP Si4532DY
