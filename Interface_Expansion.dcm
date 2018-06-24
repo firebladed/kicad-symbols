@@ -18,12 +18,6 @@ K I2C Hub
 F http://www.nxp.com/documents/data_sheet/PCA9518.pdf
 $ENDCMP
 #
-$CMP PCA9517
-D Level translating I2C-bus repeater
-K I2C Level Translator Repeater
-F https://www.nxp.com/docs/en/data-sheet/PCA9517.pdf
-$ENDCMP
-#
 $CMP PCA9517D
 D Level translating I2C-bus repeater
 K I2C Level Translator Repeater
