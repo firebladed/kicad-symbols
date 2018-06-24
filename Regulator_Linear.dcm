@@ -4,7 +4,8 @@ $CMP ADP7142AUZJ
 D 40 V, 200 mA, Low Noise, CMOS LDO Linear Regulator, TSOT-23-5
 K linear regulator ldo adjustable positive
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf
-
+$ENDCMP
+#
 $CMP ADP7182AUZJ
 D -28 V, -200 mA, Low Noise, Linear Regulator, TSOT-23-5
 K linear regulator ldo adjustable negative
@@ -4133,7 +4134,6 @@ K REGULATOR LDO 18.V
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
-
 $CMP NCP1117-1.9_TO252
 D 1A Low drop-out regulator, Fixed Output 1.9V, TO-252 (DPAK)
 K REGULATOR LDO 1.9V
@@ -4224,7 +4224,6 @@ K REGULATOR LDO ADJUSTABLE
 F http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF
 $ENDCMP
 #
-
 $CMP OM1323_TO220
 D Negative 1.5A 35V Adjustable Linear Regulator, TO-220
 K Adjustable Voltage Regulator 1.5A Negative
