@@ -1,7 +1,3 @@
 *.pyc
 *.bak
 *.bck
-/rename.json
-/rename_stagger.json
-/replace.json
-/replace_add_ep-size.json
