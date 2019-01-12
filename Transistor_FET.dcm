@@ -414,6 +414,12 @@ K P-Channel MOSFET
 F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
 #
+$CMP BSZ22DN20NS3_G
+D MOSFET N-Ch 200V 7A TDSON-8 OptiMOS 3 
+K MOSFET N-ChOptiMOS TDSON-8
+F https://www.infineon.com/dgdl/Infineon-BSZ22DN20NS3-DS-v02_02-en.pdf?fileId=db3a30432ad629a6012b15ceb1741a7c
+$ENDCMP
+#
 $CMP BUK7M10-40EX
 D 56A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 10mOhm Ron, 19.5nC Qqd, -55 to 175 °C, LFPAK33
 K Power MOSFET N-MOS
