@@ -54,6 +54,11 @@ K i2c multiplexer
 F http://www.nxp.com/documents/data_sheet/PCA9544A.pdf
 $ENDCMP
 #
+$CMP PCA9671ADP
+D Level translating Fm+ I2C-bus repeater
+F https://www.nxp.com/docs/en/data-sheet/PCA9617A.pdf
+$ENDCMP
+#
 $CMP PCF8574
 D 8 Bit Port/Expander to I2C Bus, DIP/SOIC-16
 K I2C Expander
@@ -76,6 +81,16 @@ $CMP PCF8591
 D 4ch ADC, 1 DAC, I2C Bus Interface, DIP/SOIC-16
 K I2C ADC DAC
 F http://www.nxp.com/documents/data_sheet/PCF8591.pdf
+$ENDCMP
+#
+$CMP SC16IS741A
+D Single UART with I2C-bus/SPI interface, 64-byte FIFOs, IrDA SIR
+F https://www.nxp.com/docs/en/data-sheet/SC16IS741A.pdf
+$ENDCMP
+#
+$CMP SC18IS602B
+D I2C-bus to SPI bridge
+F https://www.nxp.com/docs/en/data-sheet/SC18IS602B.pdf
 $ENDCMP
 #
 $CMP STMPE1600
