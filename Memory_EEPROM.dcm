@@ -378,6 +378,12 @@ K EEPROM memory SPI serial
 F http://www.onsemi.com/PowerSolutions/product.do?id=CAT25040
 $ENDCMP
 #
+$CMP M24C02-A125
+D Automotive 2-Kbit serial I²C EEPROM with 1 MHz clock
+K EPPROM i2c
+F https://www.st.com/resource/en/datasheet/m24c02-a125.pdf
+$ENDCMP
+#
 $CMP M95256-WMN6P
 D SPI EEPROM, 256Kb (32K x 8), No Identification Page, 2.5 to 5.5V, SO8
 K SPI EEPROM

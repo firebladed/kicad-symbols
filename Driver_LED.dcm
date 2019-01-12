@@ -96,6 +96,17 @@ K Switching LED driver
 F http://www.issi.com/WW/pdf/31LT3360.pdf
 $ENDCMP
 #
+$CMP LM3429
+D LM3429 N-Channel Controller for Constant Current LED Drivers
+F http://www.ti.com/lit/ds/symlink/lm3429.pdf
+$ENDCMP
+#
+$CMP LM3464_0
+D LED Driver with Dynamic Headroom Control and Thermal Control Interfaces
+K LED Mosfet driver TTSOP-28
+F http://www.ti.com/lit/ds/symlink/lm3464.pdf
+$ENDCMP
+#
 $CMP LT3465
 D 1.2MHz White LED Drivers with Built-in Schottky, ThinSOT-23-6
 K Switching LED driver
@@ -196,6 +207,33 @@ $CMP TLC5973
 D 3 Channel 12bit PWM constant currend LED Driver with single wire interface
 K LED current driver 12bit PWM
 F http://www.ti.com/lit/ds/symlink/tlc5973.pdf
+$ENDCMP
+#
+$CMP TPS92518HV-Q1
+D Automotive Dual Channel Buck LED Controller with SPI Interface, Analog and PWM Dimming
+K PWM SPI LED AUTOMOTIVE
+F http://www.ti.com/lit/ds/symlink/tps92518hv-q1.pdf
+$ENDCMP
+#
+$CMP TPS92661-Q1
+D High-Brightness LED Matrix Manager for Automotive Headlight Systems
+K LED Matrix Manager
+F http://www.ti.com/lit/ds/symlink/tps92661-q1.pdf
+$ENDCMP
+#
+$CMP TPS92662-Q1
+D  High-Brightness LED Matrix Manager for Automotive Headlight Systems
+F http://www.ti.com/lit/gpn/tps92662-q1
+$ENDCMP
+#
+$CMP TPS92691
+D Multi-Topology LED Driver With Rail-to-Rail Current Sense Amplifier
+F http://www.ti.com/lit/ds/symlink/tps92691.pdf
+$ENDCMP
+#
+$CMP TPS92691-Q1
+D Multi-Topology LED Driver With Rail-to-Rail Current Sense Amplifier
+F http://www.ti.com/lit/ds/symlink/tps92691.pdf
 $ENDCMP
 #
 $CMP WS2811

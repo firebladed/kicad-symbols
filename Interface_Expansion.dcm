@@ -54,6 +54,11 @@ K i2c multiplexer
 F http://www.nxp.com/documents/data_sheet/PCA9544A.pdf
 $ENDCMP
 #
+$CMP PCA9617ADP
+D Level translating Fm+ I2C-bus repeater
+F https://www.nxp.com/docs/en/data-sheet/PCA9617A.pdf
+$ENDCMP
+#
 $CMP PCA9671ADP
 D Level translating Fm+ I2C-bus repeater
 F https://www.nxp.com/docs/en/data-sheet/PCA9617A.pdf

@@ -415,7 +415,7 @@ F http://assets.nexperia.com/documents/data-sheet/BSS84.pdf
 $ENDCMP
 #
 $CMP BSZ22DN20NS3_G
-D MOSFET N-Ch 200V 7A TDSON-8 OptiMOS 3 
+D MOSFET N-Ch 200V 7A TDSON-8 OptiMOS 3
 K MOSFET N-ChOptiMOS TDSON-8
 F https://www.infineon.com/dgdl/Infineon-BSZ22DN20NS3-DS-v02_02-en.pdf?fileId=db3a30432ad629a6012b15ceb1741a7c
 $ENDCMP
@@ -1134,6 +1134,12 @@ K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/gpn/csd18540q5b
 $ENDCMP
 #
+$CMP CSD18543Q3A
+D 35A Id, 60V Vds, NexFET N-Channel Power MOSFET, 8.1mOhm Ron, Qg (typ) 11.1nC, SON8 3.3x3.3mm
+K NexFET Power MOSFET N-MOS
+F http://www.ti.com/lit/ds/symlink/csd18543q3a.pdf
+$ENDCMP
+#
 $CMP CSD18563Q5A
 D 100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 6.8mOhm Ron, 15nC Qg(typ), SON8 5x6mm
 K NexFET Power MOSFET N-MOS
@@ -1174,6 +1180,23 @@ $CMP CSD19537Q3
 D 50A Id, 100V Vds, NexFET N-Channel Power MOSFET, 13mOhm Ron, Qg Typ 16.0nC, VSON8 3.3x3.3mm
 K NexFET Power MOSFET N-MOS
 F http://www.ti.com/lit/ds/symlink/csd19537q3.pdf
+$ENDCMP
+#
+$CMP CSD25402Q3A
+D P-Channel NexFET Power MOSFET
+F http://www.ti.com/lit/ds/symlink/csd25402q3a.pdf
+$ENDCMP
+#
+$CMP CSD25404Q3
+D –20 V P-Channel NexFET Power MOSFET
+K NexFET Power MOSFET P-MOS
+F http://www.ti.com/lit/ds/symlink/csd25404q3.pdf
+$ENDCMP
+#
+$CMP DMN10H220L
+D 100V N-CHANNEL ENHANCEMENT MODE MOSFET
+K 100V N-CHANNEL ENHANCEMENT MOSFET
+F https://www.diodes.com/assets/Datasheets/DMN10H220L.pdf
 $ENDCMP
 #
 $CMP DMP3013SFV
@@ -2104,6 +2127,12 @@ $CMP Si4542DY
 D Dual N and P Channel MOSFET, 6A Id, 30V Vds, 28mOhm Ron, 10V Vgs, SO8L
 K Dual N-Channel P-Channel MOSFET
 F https://www.fairchildsemi.com/datasheets/SI/SI4542DY.pdf
+$ENDCMP
+#
+$CMP Si7415DN
+D P-Channel 60-V (D-S) MOSFET
+K P-Channel 60-V MOSFET
+F https://www.vishay.com/docs/71691/71691.pdf
 $ENDCMP
 #
 $CMP SiA453EDJ

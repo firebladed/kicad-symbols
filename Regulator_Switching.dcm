@@ -1380,6 +1380,11 @@ K switching regulator
 F http://www.ti.com/lit/ds/symlink/lm3578a.pdf
 $ENDCMP
 #
+$CMP LM36015ARNX
+D 4.2-V to 60-V, 1.5-A Ultra-Small Synchronous Step-Down Converter
+F http://www.ti.com/lit/ds/symlink/lmr36015.pdf
+$ENDCMP
+#
 $CMP LM3670MF
 D Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5
 K DC-DC buck conveter step down voltage regulator
@@ -1444,6 +1449,11 @@ $CMP LM5022MM
 D 60-V Low-Side Controller for Boost and SEPIC, MSOP-10
 K boost switching controller
 F http://www.ti.com/lit/ds/symlink/lm5022.pdf
+$ENDCMP
+#
+$CMP LM5145RGYR
+D 6-V to 75-V Synchronous Buck DC-DC Controller With Wide Duty Cycle Range
+F http://www.ti.com/lit/ds/symlink/lm5145.pdf
 $ENDCMP
 #
 $CMP LM5165

@@ -270,6 +270,12 @@ K X capacitor discharge
 F http://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/getDocument?id=142
 $ENDCMP
 #
+$CMP ILD2111
+D DC/DC Buck LED Controller
+K DC/DC Buck LED Controller
+F https://www.infineon.com/dgdl/Infineon-ILD2111-DS-v01_00-EN.pdf?fileId=5546d462518ffd8501521b9a7b9a2afd
+$ENDCMP
+#
 $CMP IPS6011PBF
 D 39V, 60A, Intelligent Power Switch High Side, TO-220-5
 K Intelligent Power Switch High Side MOSFET

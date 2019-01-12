@@ -126,6 +126,126 @@ K IR LED
 F http://www.osram-os.com/Graphics/XPic0/00203825_0.pdf
 $ENDCMP
 #
+$CMP L1C1-278
+D luXEon C Color line White 2700K
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-308
+D luXEon C Color line White 3000K
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-407
+D luXEon C Color line White 4000K
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-408
+D luXEon C Color line White 4000K
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-507
+D luXEon C Color line White 5000K
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-577
+D luXEon C Color line White 5700K
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-579
+D luXEon C Color line White 5700K
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-657
+D luXEon C Color line White 6500K
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-AMB1
+D luXEon C Color line Far Red
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-BLU1
+D luXEon C Color line Blue
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-CYN1
+D luXEon C Color line Cyan
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-DRD1
+D luXEon C Color line Deep Red
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-FRD1
+D luXEon C Color line Far Red
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-GRN1
+D luXEon C Color line Green
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-LME1
+D luXEon C Color line Lime
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-MNT1
+D luXEon C Color line Mint
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-PCA1
+D luXEon C Color line PC Amber
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-RED1
+D luXEon C Color line Red
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-RNG1
+D luXEon C Color line Red-Orange
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
+$CMP L1C1-RYL1
+D luXEon C Color line Royal Blue
+K LED
+F https://www.lumileds.com/uploads/571/DS144-pdf
+$ENDCMP
+#
 $CMP LD271
 D 940nm IR-LED, 5mm
 K IR LED
@@ -160,6 +280,30 @@ $CMP LED_Cree_XHP70_6V
 D XLamp® XHP70 LED, 6V footprint (2x2 serial LEDs in parallel)
 K led diode
 F http://www.cree.com/%7E/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/ds%20XHP70.pdf
+$ENDCMP
+#
+$CMP LZ4-00MA00
+D led Engin LZ4 Red, Green, Blue & Amber (RGBA)
+K RGBA LZ4
+F http://www.ledengin.com/files/products/LZ4/LZ4-00MA00.pdf
+$ENDCMP
+#
+$CMP LZ4-00MC00
+D Led Engin LZ4  Red, Green & Blue (RGB)
+K LED engin LZ4 RGB
+F http://www.ledengin.com/files/products/LZ4/LZ4-00MC00.pdf
+$ENDCMP
+#
+$CMP LZ4-00MD09
+D Led Engin LZ4  Red, Green, Blue & Cool White(RGBW)
+K LED engin LZ4 RGBW
+F http://www.ledengin.com/files/products/LZ4/LZ4-00MD09.pdf
+$ENDCMP
+#
+$CMP LZ7-04M100
+D Led Engin LZ7  Red, Green, Blue, Cool White, Amber, Violet
+K LED engin LZ7 Red, Green, Blue, Cool White, Amber, Violet
+F http://www.ledengin.com/files/products/LZ4/LZ7-04M100.pdf
 $ENDCMP
 #
 $CMP NeoPixel_THT

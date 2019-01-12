@@ -282,6 +282,11 @@ K can transeiver ti
 F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
 $ENDCMP
 #
+$CMP TCAN1042V-Q1
+D Automotive Fault Protected CAN Transceiver With Flexible Data-Rate 
+F http://www.ti.com/lit/ds/symlink/tcan1042v-q1.pdf
+$ENDCMP
+#
 $CMP TJA1021T
 D LIN 2.1/SAE J2602 transceiver, SOIC-8
 K LIN 2.1 SAE J2602 Transceiver

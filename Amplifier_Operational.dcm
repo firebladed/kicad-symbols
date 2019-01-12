@@ -468,6 +468,18 @@ K quad opamp
 F https://www.onsemi.com/pub/Collateral/MC33178-D.PDF
 $ENDCMP
 #
+$CMP MC33201
+D Low Voltage, Rail-to-Rail, Operational Amplifiers
+K opamp
+F http://www.onsemi.com/pub/Collateral/MC33201-D.PDF
+$ENDCMP
+#
+$CMP MC33202
+D Low Voltage, Rail-to-Rail, Operational Amplifiers
+K dual opamp
+F http://www.onsemi.com/pub/Collateral/MC33201-D.PDF
+$ENDCMP
+#
 $CMP MCP6001-OT
 D 1MHz, Low-Power Op Amp, SOT-23-5
 K single opamp
@@ -1186,6 +1198,12 @@ $CMP TSV914
 D Quad rail-to-rail input/output 8 MHz operational amplifiers, SOIC-14/TSSOP-14
 K quad opamp
 F www.st.com/resource/en/datasheet/tsv911.pdf
+$ENDCMP
+#
+$CMP mc33204
+D Low Voltage, Rail-to-Rail, Operational Amplifiers
+K quad opamp
+F http://www.onsemi.com/pub/Collateral/MC33201-D.PDF
 $ENDCMP
 #
 #End Doc Library
