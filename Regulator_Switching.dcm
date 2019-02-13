@@ -1481,11 +1481,6 @@ K boost switching controller
 F http://www.ti.com/lit/ds/symlink/lm5022.pdf
 $ENDCMP
 #
-$CMP LM5145RGYR
-D 6-V to 75-V Synchronous Buck DC-DC Controller With Wide Duty Cycle Range
-F http://www.ti.com/lit/ds/symlink/lm5145.pdf
-$ENDCMP
-#
 $CMP LM5088-1
 D Wide Input Range Non-Synchronous Buck Controller, Frequency Dithering, 75V, HTSSOP-16
 K step down buck high voltage
@@ -1496,6 +1491,11 @@ $CMP LM5088-2
 D Wide Input Range Non-Synchronous Buck Controller, Hiccup Mode Restart, 75V, HTSSOP-16
 K step down buck high voltage
 F http://www.ti.com/lit/ds/symlink/lm5088.pdf
+$ENDCMP
+#
+$CMP LM5145RGYR
+D 6-V to 75-V Synchronous Buck DC-DC Controller With Wide Duty Cycle Range
+F http://www.ti.com/lit/ds/symlink/lm5145.pdf
 $ENDCMP
 #
 $CMP LM5165

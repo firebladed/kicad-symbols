@@ -289,7 +289,7 @@ F http://www.ti.com/lit/ds/symlink/sn65hvd234.pdf
 $ENDCMP
 #
 $CMP TCAN1042V-Q1
-D Automotive Fault Protected CAN Transceiver With Flexible Data-Rate 
+D Automotive Fault Protected CAN Transceiver With Flexible Data-Rate
 F http://www.ti.com/lit/ds/symlink/tcan1042v-q1.pdf
 $ENDCMP
 #

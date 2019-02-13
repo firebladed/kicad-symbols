@@ -12,6 +12,30 @@ K Jumper SPST
 F ~
 $ENDCMP
 #
+$CMP Jumper_2_Open_Multiple
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP Jumper_2x2_Open
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP Jumper_2x3_Open
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
+$CMP Jumper_2x4_Open
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
 $CMP Jumper_3_Bridged12
 D Jumper, 3-pole, pins 1+2 closed/bridged
 K Jumper SPDT

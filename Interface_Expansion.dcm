@@ -1,10 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP PCA9543AD
-D 2-channel I2C-bus switch with interrupt logic and reset
-K I2C SWITCH 
-F https://www.nxp.com/docs/en/data-sheet/PCA9543A_43B.pdf
-$ENDCMP
 $CMP AS1115-BQFT
 D 64 LEDs, I2C Interfaced LED Driver with Keyscan, TQFN-24
 K led driver i2c
@@ -105,6 +100,12 @@ $CMP PCA9536DP
 D 4-bit I2C-bus and SMBus IO port, TSSOP8 package
 K i2c io port
 F http://www.nxp.com/documents/data_sheet/PCA9536.pdf
+$ENDCMP
+#
+$CMP PCA9543AD
+D 2-channel I2C-bus switch with interrupt logic and reset
+K I2C SWITCH
+F https://www.nxp.com/docs/en/data-sheet/PCA9543A_43B.pdf
 $ENDCMP
 #
 $CMP PCA9544AD
