@@ -24,6 +24,12 @@ K Thermocouple Amp
 F http://www.analog.com/media/en/technical-documentation/data-sheets/ad8494_8495_8496_8497.pdf
 $ENDCMP
 #
+$CMP AMG8833
+D Temperature Sensor IC, Grid EYE Infrared Array, Digital, ± 2.5°C, 0 °C, 80 °C, Module, 14 Pins
+K Temperature, Infrared
+F http://industrial.panasonic.com/cdbs/www-data/pdf/ADI8000/ADI8000C66.pdf
+$ENDCMP
+#
 $CMP BD1020HFV
 D Analog Ouput Temperature Sensor
 K Temperature sensor
