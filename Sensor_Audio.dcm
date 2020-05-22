@@ -18,4 +18,9 @@ K MEMS Microphone
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00025467.pdf
 $ENDCMP
 #
+$CMP SPG08P4HM4H-1
+D The SPG08P4HM4H-1 is a miniature, high-performance, low power, topport silicon microphone.
+F https://www.knowles.com/docs/default-source/default-document-library/spg08p4hm4h-1_baracus_datasheet68f91b731dff6ddbb37cff0000940c19.pdf?Status=Master&sfvrsn=820676b1_0
+$ENDCMP
+#
 #End Doc Library
