@@ -1410,11 +1410,6 @@ K switching regulator
 F http://www.ti.com/lit/ds/symlink/lm3578a.pdf
 $ENDCMP
 #
-$CMP LM36015ARNX
-D 4.2-V to 60-V, 1.5-A Ultra-Small Synchronous Step-Down Converter
-F http://www.ti.com/lit/ds/symlink/lmr36015.pdf
-$ENDCMP
-#
 $CMP LM3670MF
 D Miniature Step-Down DC-DC Converter for Ultralow Voltage Circuits, 2.5V < Vin < 5.5V, adjustable output voltage, SOT-23-5
 K DC-DC buck conveter step down voltage regulator
@@ -1586,6 +1581,11 @@ $CMP LMR16006YQ5
 D Simple Switcher Buck Regulator, Vin=4-40V, Iout=600mA, Fixed 5.0V output voltage, SOT-23-6 package
 K simple-switcher buck step-down voltage-regulator
 F http://www.ti.com/lit/ds/symlink/lmr16006y-q1.pdf
+$ENDCMP
+#
+$CMP LMR36015ARNX
+D 4.2-V to 60-V, 1.5-A Ultra-Small Synchronous Step-Down Converter
+F http://www.ti.com/lit/ds/symlink/lmr36015.pdf
 $ENDCMP
 #
 $CMP LMR62014XMF
