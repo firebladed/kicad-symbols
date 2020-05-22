@@ -18,6 +18,11 @@ K audio dac 2ch 24bit 192kHz
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD1955.pdf
 $ENDCMP
 #
+$CMP ADAU7118
+D 8-Channel, PDMtoI2S/TDM Converter
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU7118.pdf
+$ENDCMP
+#
 $CMP AK5392VS
 D Enhanced Dual Bit Sigma-Delta 24Bit ADC, SOIC-28
 K audio adc 2ch 24bit
@@ -106,6 +111,11 @@ $CMP CS43L21
 D Low-Power, Stereo Digital-to-Analog Converter, QFN-32
 K audio dac 2ch 24bit 96kHz
 F https://d3uzseaevmutz1.cloudfront.net/pubs/proDatasheet/CS43L21_F1.pdf
+$ENDCMP
+#
+$CMP CS47L35
+D Smart Codec with Low-Power Audio DSP
+F https://statics.cirrus.com/pubs/proDatasheet/CS47L35_F3.pdf
 $ENDCMP
 #
 $CMP CS5361
