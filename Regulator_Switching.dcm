@@ -1584,15 +1584,15 @@ K Buck Boost step-up step-down
 F https://www.ti.com/lit/ds/symlink/lm5118.pdf
 $ENDCMP
 #
+$CMP LM5145RGYR
+D 6-V to 75-V Synchronous Buck DC-DC Controller With Wide Duty Cycle Range
+F http://www.ti.com/lit/ds/symlink/lm5145.pdf
+$ENDCMP
+#
 $CMP LM5161PWP
 D 1A Synchronous Buck/Fly-buck Converter, 4.5V-100V input, adjustable output voltage, HTSSOP-14
 K step-down dc-dc buck regulator adjustable
 F http://www.ti.com/lit/ds/symlink/lm5161.pdf
-$ENDCMP
-#
-$CMP LM5145RGYR
-D 6-V to 75-V Synchronous Buck DC-DC Controller With Wide Duty Cycle Range
-F http://www.ti.com/lit/ds/symlink/lm5145.pdf
 $ENDCMP
 #
 $CMP LM5165
@@ -4364,6 +4364,12 @@ $CMP TLV62095RGTx
 D High efficiency step-down converter
 K Synchronous Buck
 F http://www.ti.com/lit/ds/symlink/tlv62095.pdf
+$ENDCMP
+#
+$CMP TLV62568ADRLR
+D High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6
+K Step-Down Buck DC-DC Regulator Adjustable
+F http://www.ti.com/lit/ds/symlink/tlv62568a.pdf
 $ENDCMP
 #
 $CMP TLV62568DBV

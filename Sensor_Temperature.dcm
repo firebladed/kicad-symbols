@@ -438,6 +438,12 @@ K I2C TWI
 F http://ww1.microchip.com/downloads/en/DeviceDoc/20005192B.pdf
 $ENDCMP
 #
+$CMP MLX90640-ESF-BAA
+D The MLX90640 is a fully calibrated 32x24 pixels thermal IR array in an industry standard 4-lead TO39 package with digital interface.
+K I2C, IR, TO39, INFRA RED
+F https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf
+$ENDCMP
+#
 $CMP PCT2075D
 D NXP I2C-bus Fm+ digital temperature sensor and thermal watchdog, SO-8
 K temperature sensor I2C single channel
@@ -448,12 +454,6 @@ $CMP PCT2075DP
 D NXP I2C-bus Fm+ digital temperature sensor and thermal watchdog, TSSOP-8
 K temperature sensor I2C single channel
 F https://www.nxp.com/docs/en/data-sheet/PCT2075.pdf
-$ENDCMP
-#
-$CMP MLX90640-ESF-BAA
-D The MLX90640 is a fully calibrated 32x24 pixels thermal IR array in an industry standard 4-lead TO39 package with digital interface.
-K I2C, IR, TO39, INFRA RED
-F https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf
 $ENDCMP
 #
 $CMP PT100
