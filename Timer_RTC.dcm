@@ -103,9 +103,9 @@ F https://datasheets.maximintegrated.com/en/ds/DS1602.pdf
 $ENDCMP
 #
 $CMP DS3231M
-D Extremely Accurate I2C-Integrated RTC/TCXO/Crystal SOIC-16
-K RTC TCXO Realtime Time Clock Crystal Oscillator I2C
-F http://datasheets.maximintegrated.com/en/ds/DS3231.pdf
+D Extremely Accurate I2C-Integrated RTC SOIC-16
+K RTC TCXO Realtime Time Clock I2C
+F http://datasheets.maximintegrated.com/en/ds/DS3231M.pdf
 $ENDCMP
 #
 $CMP DS3231MZ
