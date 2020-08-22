@@ -1284,6 +1284,17 @@ K NexFET Power MOSFET P-MOS
 F https://www.ti.com/lit/ds/slps234b/slps234b.pdf
 $ENDCMP
 #
+$CMP CSD25402Q3A
+D P-Channel NexFET Power MOSFET
+F http://www.ti.com/lit/ds/symlink/csd25402q3a.pdf
+$ENDCMP
+#
+$CMP CSD25404Q3
+D –20 V P-Channel NexFET Power MOSFET
+K NexFET Power MOSFET P-MOS
+F http://www.ti.com/lit/ds/symlink/csd25404q3.pdf
+$ENDCMP
+#
 $CMP DMC2053UVT
 D 4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6
 K complementary mosfet
@@ -1345,9 +1356,9 @@ F http://www.diodes.com/assets/Datasheets/DMG3418L.pdf
 $ENDCMP
 #
 $CMP DMN10H220L
-D 1.6A Id, 100V Vds, N-Channel MOSFET, SOT-23
-K N-Channel MOSFET
-F http://www.diodes.com/assets/Datasheets/DMN10H220L.pdf
+D 100V N-CHANNEL ENHANCEMENT MODE MOSFET
+K 100V N-CHANNEL ENHANCEMENT MOSFET
+F https://www.diodes.com/assets/Datasheets/DMN10H220L.pdf
 $ENDCMP
 #
 $CMP DMN10H700S
@@ -1480,23 +1491,6 @@ $CMP DMN67D8L
 D 0.21A Id, 60V Vds, N-Channel MOSFET, SOT-23
 K N-Channel MOSFET
 F http://www.diodes.com/assets/Datasheets/DMN67D8L.pdf
-$ENDCMP
-#
-$CMP CSD25402Q3A
-D P-Channel NexFET Power MOSFET
-F http://www.ti.com/lit/ds/symlink/csd25402q3a.pdf
-$ENDCMP
-#
-$CMP CSD25404Q3
-D –20 V P-Channel NexFET Power MOSFET
-K NexFET Power MOSFET P-MOS
-F http://www.ti.com/lit/ds/symlink/csd25404q3.pdf
-$ENDCMP
-#
-$CMP DMN10H220L
-D 100V N-CHANNEL ENHANCEMENT MODE MOSFET
-K 100V N-CHANNEL ENHANCEMENT MOSFET
-F https://www.diodes.com/assets/Datasheets/DMN10H220L.pdf
 $ENDCMP
 #
 $CMP DMP3013SFV
@@ -2711,6 +2705,12 @@ K N-Channel MOSFET
 F https://www.vishay.com/docs/73152/si7336adp.pdf
 $ENDCMP
 #
+$CMP Si7415DN
+D P-Channel 60-V (D-S) MOSFET
+K P-Channel 60-V MOSFET
+F https://www.vishay.com/docs/71691/71691.pdf
+$ENDCMP
+#
 $CMP Si7450DP
 D 5.3A Id, 200V Vds, 80mOhm Ron, PowerPAK-8
 K N-Channel MOSFET
@@ -2721,12 +2721,6 @@ $CMP SiA449DJ
 D -12A Id, -30V Vds, P-Channel MOSFET, PowerPAK SC70-6
 K P-Channel MOSFET
 F http://www.vishay.com/docs/62644/sia449dj.pdf
-$ENDCMP
-#
-$CMP Si7415DN
-D P-Channel 60-V (D-S) MOSFET
-K P-Channel 60-V MOSFET
-F https://www.vishay.com/docs/71691/71691.pdf
 $ENDCMP
 #
 $CMP SiA453EDJ
